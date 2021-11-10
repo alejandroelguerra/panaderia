@@ -1,0 +1,124 @@
+
+/*Cabezera*/
+header{
+    background-color: #9e5a00;
+    text-align: center;
+    
+}
+
+h1 a{
+    text-decoration: none;
+    display: block;
+    color: white;
+    font-family:'Courier New', Courier, monospace;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+  }
+  
+  li {
+    float: left;
+  }
+  .idioma{
+      float: right;
+  }
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #714100;
+  }
+
+  /*Cuerpo*/
+main{
+    text-align: center;
+}
+img{
+    height: 200px;
+    width: 400px;
+}
+
+
+.esquema{
+    display: grid;
+    grid-template-columns:25% 25% 25% 25%;
+    
+}
+@media only screen and (max-width: 1600px) {
+    .esquema{grid-template-columns:50% 50%;}
+}
+@media only screen and (max-width: 900px) {
+    .esquema{grid-template-columns:100%;}
+}
+
+p{
+    padding-left: 10%;
+    padding-right: 10%;
+    
+    text-align: justify;
+}
+body{
+    background-color: #ffc270;
+    margin: 0;
+}
+p{
+    font-family: sans-serif;
+}
+
+
+iframe{
+    width:40%;
+    min-width: 500px;
+    height: 30%;
+    min-height:600px;
+    border:0;
+}
+article{
+
+    border-style: groove;
+    border-color: #ffc270;
+    border-radius: 5px;
+    margin-top: 2%;
+    padding-top: 2%;
+}
+
+
+
+  /*Pie de pagina*/
+  footer{
+    background-color: #714100;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-end;
+    color: white;
+}
+fieldset{
+    border: none;
+}
+fieldset#contacto{
+    justify-content: right;
+    
+    
+}
+.icono{
+    height: 50px;
+    width: 50px;
+
+}
+.mapa{
+    height: 200px;
+    width: 300px;
+}
+
+
+
